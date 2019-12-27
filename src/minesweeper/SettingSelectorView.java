@@ -1,4 +1,4 @@
-package sample;
+package minesweeper;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -10,8 +10,8 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 
-import static sample.Main.switchToGame;
-import static sample.TableView.*;
+import static minesweeper.Main.switchToGame;
+import static minesweeper.TableView.*;
 
 class SettingSelectorView {
     private static final Text rowText = new Text("ROWS");

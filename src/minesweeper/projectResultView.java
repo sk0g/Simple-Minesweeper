@@ -1,4 +1,4 @@
-package sample;
+package minesweeper;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -9,10 +9,10 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 
-import static sample.Main.switchToGame;
-import static sample.Main.switchToSettings;
-import static sample.SettingSelectorView.*;
-import static sample.TableView.BLACKBLUE;
+import static minesweeper.Main.switchToGame;
+import static minesweeper.Main.switchToSettings;
+import static minesweeper.SettingSelectorView.*;
+import static minesweeper.TableView.BLACKBLUE;
 
 class ResultView {
     static Scene getResultViewScene(boolean gameWasWon) {
